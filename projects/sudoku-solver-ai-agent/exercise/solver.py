@@ -1,5 +1,6 @@
-def solve(puzzle:list(list(int))) -> bool:
-    """_summary_
+def solve(puzzle: list(list(int))) -> bool:
+    """ The solve function defined to take the 2D and 9*9 sudoku to solve and 
+    fill all zeros with appropriate numbers.
 
     Args:
         puzzle (list): _description_
@@ -10,7 +11,7 @@ def solve(puzzle:list(list(int))) -> bool:
     return False
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     puzzle = [
         [0, 9, 8, 6, 4, 1, 0, 3, 7],
         [0, 0, 7, 8, 0, 0, 9, 4, 6],
@@ -20,8 +21,9 @@ if __name__=="__main__":
         [3, 0, 0, 1, 0, 7, 6, 9, 8],
         [0, 6, 0, 0, 1, 0, 4, 0, 5],
         [9, 0, 5, 7, 6, 4, 0, 1, 0],
-        [0, 0, 4, 3, 8, 5, 0, 0, 9]
+        [0, 0, 4, 3, 8, 5, 0, 0, 9],
     ]
+    
     
     if solve(puzzle):
         print("Sudoku puzzle solved:")
