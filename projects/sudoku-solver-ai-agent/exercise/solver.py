@@ -18,7 +18,8 @@ def is_valid(puzzle: list, row: int, col: int, num: int) -> bool:
             for j in range(3):
                 if puzzle[start_row + i][start_col + j] == num:
                     return False
-        return True
+    return True
+    
 
 
 def solve(puzzle) -> bool:
