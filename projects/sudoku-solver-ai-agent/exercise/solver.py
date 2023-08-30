@@ -19,7 +19,6 @@ def is_valid(puzzle: list, row: int, col: int, num: int) -> bool:
                 if puzzle[start_row + i][start_col + j] == num:
                     return False
     return True
-    
 
 
 def solve(puzzle) -> bool:
@@ -72,7 +71,7 @@ if __name__ == "__main__":
         [9, 0, 5, 7, 6, 4, 0, 1, 0],
         [0, 0, 4, 3, 8, 5, 0, 0, 9],
     ]
-    
+
     if solve(puzzle):
         print("Sudoku puzzle solved:")
         print_board(puzzle)
