@@ -73,6 +73,7 @@ def print_board() -> None:
             print("-" * 25)
     print("-" * 25)
 
+
 if __name__ == "__main__":
 
     if solve():
