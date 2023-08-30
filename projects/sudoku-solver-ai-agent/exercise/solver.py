@@ -31,7 +31,6 @@ def solve(puzzle) -> bool:
     Returns:
         bool: solved or no solution
     """
-    
     for row in range(9):
         for col in range(9):
             if puzzle[row][col] == 0:
@@ -43,6 +42,7 @@ def solve(puzzle) -> bool:
                         puzzle[row][col] = 0
                 return False
     return True
+
 
 def print_board(puzzle) -> None:
     """Display puzzle board
@@ -72,9 +72,6 @@ if __name__ == "__main__":
         [9, 0, 5, 7, 6, 4, 0, 1, 0],
         [0, 0, 4, 3, 8, 5, 0, 0, 9],
     ]
-    
-    
-    print(type(puzzle))
     
     if solve(puzzle):
         print("Sudoku puzzle solved:")
