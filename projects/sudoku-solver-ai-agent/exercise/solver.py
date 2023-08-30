@@ -22,14 +22,13 @@ def is_valid(puzzle: list, row: int, col: int, num: int) -> bool:
 
 
 def solve(puzzle) -> bool:
-    """The solve function defined to take the 2D and 9*9 sudoku to solve and 
-    fill all zeros with appropriate numbers.
+    """To solve and fill all zeros with appropriate numbers.
 
     Args:
-        puzzle (list): puzzle
+        puzzle (_type_): puzzle
 
     Returns:
-        bool: solved or no solution
+        bool: bolean
     """
     for row in range(9):
         for col in range(9):
