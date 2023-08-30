@@ -10,6 +10,7 @@ I am a dedicated and driven individual with a keen interest in AI and its applic
 * Project 3: Build an Adversarial Game Playing Agent
 * Project 4: Parts of Speech Tagging
 * Project 5: Finding Shortest Paths on a Planet using Genetic Algorithm
+* Project 6: Solving the Maze Problem using Q-Learning
 * Project 5: Business Processes Optimization in E-Commerce Warehouse using Q-Learning
 * Project 6: Minimizing the Costs in Energy Consumption of a Data Center
 * Project 7: Self-Driving Car using Deep Q-Learning
@@ -47,6 +48,15 @@ The Parts of Speech Tagging project demonstrates the application of AI in unders
 The primary objective of this project is to build a pathfinding system that uses a Genetic Algorithm to find the shortest path between different locations on a planet. Genetic algorithms are inspired by natural evolution and involve generating multiple potential solutions (individuals), selecting the best ones through fitness evaluation, and iteratively improving the population over generations. Our Genetic Algorithm will create and refine potential paths to find the optimal route for travel between locations.
 #### Conclusion
 The Shortest Path Finding project using Genetic Algorithm showcases the power of evolutionary algorithms in solving optimization problems. By mimicking the principles of natural selection and genetic inheritance, the Genetic Algorithm discovers the shortest paths between locations on a planet's surface.
+
+### Solving The Maze Problem using Q-learning
+The maze problem involves a grid-like environment where an agent needs to find the optimal path from a start location to a goal location while avoiding obstacles. Traditional pathfinding algorithms might not work well in complex scenarios, so we turn to Q-Learning, a reinforcement learning technique, to enable the agent to learn the best actions to take in order to reach the goal while avoiding obstacles.
+
+#### Q-Learning Explanation
+Q-Learning involves learning a Q-value table that represents the expected rewards for taking different actions in different states. In our case, states are the positions within the maze, and actions are the agent's movements (up, down, left, right). The agent updates Q-values using the Bellman equation, which takes into account the immediate reward and the expected future rewards.
+
+#### Conclusion
+The "Solving the Maze Problem using Q-Learning" project demonstrates how AI can be used to solve complex pathfinding challenges through reinforcement learning. By allowing the agent to learn from trial and error, we enable it to make intelligent decisions and efficiently navigate through mazes.
 
 ### 1. Business Processes Optimization in E-Commerce Warehouse using Q-Learning
 In the fast-paced world of e-commerce, warehouse operations play a crucial role in meeting customer demands. This project focuses on leveraging Q-Learning, a powerful reinforcement learning algorithm, to optimize business processes within an e-commerce warehouse. The Q-Learning agent learns to make decisions that lead to improved inventory management, effective order fulfillment, and optimal resource allocation, ultimately enhancing the overall efficiency of the warehouse.
