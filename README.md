@@ -1,1 +1,1 @@
-# artificial-intelligence-portfolio
+# Artificial Intelligence Portfolio
