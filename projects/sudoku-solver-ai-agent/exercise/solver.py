@@ -1,5 +1,5 @@
 def is_valid(puzzle: list, row: int, col: int, num: int) -> bool:
-    """ Function checks for the valid entry
+    """Function checks for the valid entry
 
     Args:
         puzzle (list): puzzle 2Dboard
@@ -22,7 +22,7 @@ def is_valid(puzzle: list, row: int, col: int, num: int) -> bool:
 
 
 def solve(puzzle) -> bool:
-    """ The solve function defined to take the 2D and 9*9 sudoku to solve and 
+    """The solve function defined to take the 2D and 9*9 sudoku to solve and 
     fill all zeros with appropriate numbers.
 
     Args:
@@ -45,7 +45,7 @@ def solve(puzzle) -> bool:
     return True
 
 def print_board(puzzle) -> None:
-    """ Display puzzle board
+    """Display puzzle board
 
     Args:
         puzzle (list): Puzzle board
