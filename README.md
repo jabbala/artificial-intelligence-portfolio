@@ -11,8 +11,8 @@ I am a dedicated and driven individual with a keen interest in AI and its applic
 * Parts of Speech Tagging
 * Finding Shortest Paths on a Planet using Genetic Algorithm
 * Solving the Maze Problem using Q-Learning
-* AI Agent for Classic Snake Game using Deep Q-Learning Network (DQN)
-* AI Agent for Double Headed Snake Game using Deep Q-Learning Network (DQN)
+* AI Agent for Classic Snake Game using Deep Convolutional Q-Learning Network (DQN)
+* AI Agent for Double Headed Snake Game using Deep Convolutional Q-Learning Network (DQN)
 * Business Processes Optimization in E-Commerce Warehouse using Q-Learning
 * Minimizing the Costs in Energy Consumption of a Data Center
 * Self-Driving Car using Deep Q-Learning
@@ -61,22 +61,22 @@ Q-Learning involves learning a Q-value table that represents the expected reward
 The "Solving the Maze Problem using Q-Learning" project demonstrates how AI can be used to solve complex pathfinding challenges through reinforcement learning. By allowing the agent to learn from trial and error, we enable it to make intelligent decisions and efficiently navigate through mazes.
 
 ### AI Agent for Classic Snake Game using Deep Q-Learning Network (DQN)
-The classic Snake game challenges players to navigate a snake through a grid while collecting food to grow longer. The game ends if the snake collides with the walls or itself. We'll employ the Deep Q-Learning Network (DQN) to train an AI agent to learn how to play the game effectively. DQN is a powerful algorithm that leverages neural networks to approximate Q-values and make decisions.
+The classic Snake game poses a challenge of navigating a snake through a grid while collecting food. Deep Convolutional Q-Learning combines convolutional neural networks (CNNs) with Q-Learning to create an AI agent that learns both the game's state representation and optimal actions. The agent leverages the spatial understanding capabilities of CNNs to handle complex scenarios.
 
-#### Deep Q-Learning Network (DQN) Explanation
-DQN combines reinforcement learning with deep neural networks. The agent learns to approximate Q-values (expected future rewards) using a neural network. The network takes the current state (game screen) as input and outputs Q-values for each possible action. DQN uses experience replay and target networks to stabilize learning and prevent instability.
+#### Deep Convolutional Q-Learning Explanation
+Deep Convolutional Q-Learning enhances traditional Q-Learning by using CNNs to approximate Q-values. The CNN takes the game screen as input and outputs Q-values for each possible action. This approach enables the agent to learn spatial patterns in the game environment and make informed decisions.
 
 #### Conclusion
-The "AI Agent for Classic Snake Game using Deep Q-Learning Network (DQN)" project showcases the potential of deep reinforcement learning in solving complex gaming challenges. By training a neural network to approximate Q-values, the DQN agent learns effective strategies to navigate and play the Snake game optimally.
+The "AI Agent for Classic Snake Game using Deep Convolutional Q-Learning" project showcases the power of deep learning and reinforcement learning in solving complex gaming challenges. By incorporating CNNs into the Q-Learning process, the agent learns spatial patterns and optimal strategies to navigate and play the Snake game.
 
 ### AI Agent for Double Headed Snake Game using Deep Q-Learning Network (DQN)
-The double-headed Snake game presents a unique challenge where the snake can move in both forward and backward directions. This adds complexity to the navigation and decision-making process. We'll enhance the Deep Q-Learning Network (DQN) approach to handle this scenario and train an AI agent that can play the game effectively, accounting for bidirectional movement.
+The double-headed Snake game introduces bidirectional movement and complexity. By incorporating Deep Convolutional Q-Learning, we're enhancing the agent's capabilities to capture spatial patterns and make informed decisions for both heads. This advanced approach equips the agent to handle challenging scenarios with bidirectional movement.
 
-#### Enhanced Deep Q-Learning Network (DQN) Explanation
-To accommodate bidirectional movement, we'll extend the DQN algorithm to output Q-values for both forward and backward actions for each head of the snake. The agent will learn to select actions for both heads, optimizing its strategy based on the potential rewards and avoiding collisions.
+#### Deep Convolutional Q-Learning for Bidirectional Movement
+In the double-headed scenario, the Deep Convolutional Q-Learning agent extends to handle two heads. The agent uses separate CNNs to capture spatial patterns for each head and learns optimal actions based on bidirectional movement.
 
 #### Conclusion
-The "AI Agent for Double Headed Snake Game using Deep Q-Learning Network (DQN)" project showcases the adaptation of deep reinforcement learning to handle bidirectional movement challenges. By extending the DQN algorithm, the agent learns effective strategies to navigate and play the Double Headed Snake game optimally.
+The "AI Agent for Double Headed Snake Game using Deep Convolutional Q-Learning" project demonstrates the advanced integration of deep learning and reinforcement learning to handle complex bidirectional movement scenarios. By enhancing the Deep Convolutional Q-Learning approach, the agent learns optimal strategies for both snake heads.
 
 ### Business Processes Optimization in E-Commerce Warehouse using Q-Learning
 In the fast-paced world of e-commerce, warehouse operations play a crucial role in meeting customer demands. This project focuses on leveraging Q-Learning, a powerful reinforcement learning algorithm, to optimize business processes within an e-commerce warehouse. The Q-Learning agent learns to make decisions that lead to improved inventory management, effective order fulfillment, and optimal resource allocation, ultimately enhancing the overall efficiency of the warehouse.
